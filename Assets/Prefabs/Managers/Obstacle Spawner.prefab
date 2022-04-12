@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6886455374994164536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6886455374994164537}
+  - component: {fileID: 6886455374994164538}
+  m_Layer: 0
+  m_Name: Obstacle Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6886455374994164537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886455374994164536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6886455374994164538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886455374994164536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f4908089e9c1974e9bde04cf3141518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorSmokePrefab: {fileID: 3181322203939114080, guid: e9d1db18ea2fb944892ce3f0b045ba1f, type: 3}
+  viewSmokePrefab: {fileID: 9065223408626752216, guid: e7180f85f17c8964d842c9927d240ed9, type: 3}
+  debrisPrefab: {fileID: 4889725350865437857, guid: 9c83814039baaaa48b43bb4872366068, type: 3}
+  floorSmokeSpawnInterval: 4
+  viewSmokeSpawnInterval: 8
+  debrisSpawnInterval: 3
+  roomSize: 3.2
+  spawnFloorSmoke: 0
+  spawnViewSmoke: 0
+  spawnDebris: 0
