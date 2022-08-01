@@ -1,4 +1,4 @@
-# **Fire Out!**
+# [Fire Out!](https://hkhoa.itch.io/fire-out)
 
 A retro, 1-Bit shooter made in Unity. The game was kind of a "clone" attemp of the game [The Lesser Evil](https://jontopielski.itch.io/the-lesser-evil) by [Jon Topielski](https://jontopielski.itch.io/). All of **Fire Out!** game assets were made by me in Aseprite, including the sprites and animations.
 
